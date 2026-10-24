@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewController">
+   <children>
+      <Button fx:id="playButton" layoutX="1037.0" layoutY="260.0" mnemonicParsing="false" onAction="#Play" text="PLAY" />
+      <Button layoutX="1000.0" layoutY="550.0" mnemonicParsing="false" onAction="#Reset" text="Draw again!" wrapText="true" />
+      <Button layoutX="965.0" layoutY="170.0" mnemonicParsing="false" onAction="#upVelocity" text="+" />
+      <Button layoutX="1160.0" layoutY="170.0" mnemonicParsing="false" onAction="#downVelocity" text="-" />
+      <Label fx:id="currentSpeedMultText" layoutX="1060.0" layoutY="185.0" text="0.0">
+       </Label>
+      <Label layoutX="990.0" layoutY="117.0" text="Generation: ">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label fx:id="generationText" layoutX="1119.0" layoutY="117.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <GridPane fx:id="BoardGrid" gridLinesVisible="false" layoutX="50.0" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="359.0">
+      </GridPane>
+      <Label layoutX="900.0" layoutY="337.0" text="Leyenda de colores:" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="950.0" layoutY="383.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="20.0" layoutX="950.0" layoutY="423.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="20.0" layoutX="950.0" layoutY="463.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOWGREEN" height="20.0" layoutX="1100.0" layoutY="383.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="SLATEBLUE" height="20.0" layoutX="1100.0" layoutY="423.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="20.0" layoutX="1100.0" layoutY="463.0" stroke="WHITE" strokeType="INSIDE" width="20.0" />
+      <Label layoutX="978.0" layoutY="373.0" text="1" />
+      <Label layoutX="978.0" layoutY="411.0" text="2 - 4" />
+      <Label layoutX="978.0" layoutY="453.0" text="5 - 9" />
+      <Label layoutX="1127.0" layoutY="373.0" text="10 - 14" />
+      <Label layoutX="1127.0" layoutY="411.0" text="+15" />
+      <Label layoutX="1127.0" layoutY="453.0" text="Dead" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,76 @@
+@font-face{
+	font-family: 'LLPixel';
+	src: url("LLPixel3.ttf");
+}
+
+.root{
+	-fx-background-color: #111111;
+}
+
+.label{
+	-fx-font-size: 20;
+	-fx-font-family: 'LLPixel';
+	-fx-text-fill: "white";
+	-fx-alignment: center;
+	-fx-padding: 10px;
+	
+}
+
+.button{
+	-fx-font-size: 25;
+	-fx-font-family: "LLPixel";
+	-fx-text-fill: "white";
+	-fx-alignment: center;
+	-fx-border-color: "white";
+	-fx-border-width: 4px; 
+	-fx-border-style: double;
+	-fx-padding: 10px;
+}
+
+.text-field{
+	-fx-font-size: 20;
+	-fx-font-family: 'LLPixel';
+	-fx-text-fill: "white";
+	-fx-alignment: center;
+	-fx-padding: 10px;
+
+}
+
+.text{
+	-fx-size: 20;
+	-fx-font: 'LLPixel';
+	-fx-text-fill: "white";
+	-fx-alignment: center;
+	-fx-padding: 10px;
+}
+
+.choice-box{
+	-fx-border-color: "white";
+	-fx-border-width: 4px; 
+	-fx-border-style: double;
+	-fx-padding: 10px;
+}
+
+.titleLabel{
+	-fx-font-size: 60;
+	-fx-font-family: 'LLPixel';
+	-fx-text-fill: "white";
+	-fx-alignment: center;
+	-fx-padding: 10px;
+}
+
+.titleLabelBigger{
+	-fx-font-size: 150;
+	-fx-font-family: 'LLPixel';
+	-fx-text-fill: "white";
+	-fx-alignment: center;
+	-fx-padding: 10px;
+}
+
+
+
+
+
+
+
+
